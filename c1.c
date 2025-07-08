@@ -35,11 +35,18 @@ void main(){
     printf("your SI : %f",si);*/
 
 
-
-    printf("enter your values for x and y \t");
+    char c;
+    /*printf("enter your values for x and y \t");
     scanf("%f %f",&a,&b);
     float exp=((a+b)*(a-b));
-    printf("\nyour value of expression is : %f",exp);
+    printf("\nyour value of expression is : %f",exp);*/
+
+
+    // character input for one character 
+    printf("enter character : \t");
+    scanf("%c",&c);
+   // c=getchar();
+    printf("your character : %c",c);
 
 
 }
